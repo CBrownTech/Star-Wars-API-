@@ -1,0 +1,75 @@
+/* Set some global styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ed8917;
+}
+
+/* Style the headings */
+h1, h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #333333;
+}
+
+h2 {
+  font-size: 36px;
+  color: #666666;
+}
+
+/* Style the links */
+a {
+  text-decoration: none;
+  color: #0066cc;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #003366;
+}
+
+/* Style the lists */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Style the films list */
+ul:last-of-type {
+  margin-bottom: 50px;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #999999;
+}
+
+/* Animation for fade in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
