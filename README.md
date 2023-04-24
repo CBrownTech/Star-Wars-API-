@@ -19,7 +19,7 @@ Each page on the website is styled using CSS files, which add some design and fo
 
 ## Installation and Usage
 
-To run the Star Wars website on your local machine, simply download the files and open the "homepage.html" file in your web browser. The website is designed to be responsive and should display correctly on desktop and mobile devices.
+To run the Star Wars website on your local machine, simply download the files, run the code, and open the "homepage.html" file in your web browser. From there, you will see two options: "Characters" and "Films". The website is designed to be responsive and should display correctly on desktop and mobile devices.
 
 ## Credits
 This website was created by Carlie Brown. The Star Wars API was used to extract data and information for the films and characters profiles. The website also includes images and content from the Star Wars movies, which are owned by Lucasfilm Ltd. and Disney.
